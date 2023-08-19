@@ -33,7 +33,6 @@ ENV JAVA_OPTS -XX:MaxRAMPercentage=85 -Djava.awt.headless=true -XX:+HeapDumpOnOu
 
 ENTRYPOINT ["bash","-c","java $JAVA_OPTS -jar app.jar"]
 
-PORT=8080
 mj_discord_guild_id=1142431863437275138
 mj_discord_channel_id=1142431862942351490
 mj_discord_user_token=MTE0MjQyODY0NjExNjcwODQ3Mw.Gjz3r8.qj_P68wZ_xZSzuIi_b1t5Bis5PzLW52xhxXmxE
